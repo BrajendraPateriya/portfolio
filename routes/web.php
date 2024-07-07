@@ -13,10 +13,10 @@ use App\Http\Controllers\PortfolioController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/home', [PortfolioController::class, 'Home']);
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+Route::get('/', [PortfolioController::class, 'Home']);
 Route::get('/about', [PortfolioController::class, 'About']);
 Route::get('/project', [PortfolioController::class, 'Project']);
 Route::get('/stack', [PortfolioController::class, 'Stack']);
