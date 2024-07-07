@@ -1,0 +1,201 @@
+* {
+  font-family: sans-serif;
+}
+
+.container1 {
+  height: 100%;
+}
+
+.section_class {
+  width: 100%;
+}
+
+.socialmedia-link {
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+}
+
+.socialmedia-link li a {
+  color: rgb(44, 43, 43);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.Afw {
+  background-color: rgb(227, 237, 227);
+}
+
+.bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: green;
+  display: inline;
+}
+
+/* Ensure the class selector is specific enough */
+.col-9.custom-width {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.bulletbox {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+}
+
+.left-section {
+  height: 70vh;
+}
+
+.right-section {
+  padding-top: 30px;
+}
+
+.portfolio-img {
+  width: 100%; /* Adjusted to ensure full width */
+  height: auto; /* Ensure image maintains aspect ratio */
+}
+
+.btn {
+  width: 100%; /* Adjusted to take full width */
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: #828080;
+  border: 1.5px solid gray;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn:before {
+  content: '\2192'; /* Unicode character for right arrow (→) */
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.abouttxt {
+  color: gray;
+}
+
+.experience {
+  background-color: #e3e0e0;
+}
+
+.small-Text {
+  font-size: small;
+}
+
+.btn1 {
+  width: 20%;
+}
+
+footer,
+span {
+  color: #828080;
+}
+
+/* Additional Styles for Scrollable Content */
+.main-content {
+  height: 100vh;
+  overflow-y: auto;
+  padding-left: 1rem; /* Ensure some padding between sidebar and content */
+  margin-left: 1rem; /* Ensure some margin between sidebar and content */
+}
+/* Styles for the stack section */
+.stack-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e3e0e0;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.stack-item img {
+  margin-right: 10px;
+}
+
+.stack-item span {
+  font-weight: bold;
+}
+
+.stack-item small {
+  color: gray;
+}
+/* Styles for the stack section */
+
+
+/* Styles for the container */
+.container1 {
+  height: 100%;
+}
+
+.section_class {
+  width: 100%;
+}
+
+.right-section {
+  padding-top: 30px;
+}
+
+.main-content {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for project items */
+.project-item {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.project-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.project-item p {
+  color: gray;
+  font-size: 14px;
+}
+
+.project-item h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* General styles */
+.small-Text {
+  font-size: small;
+}
+
+.Afw {
+  background-color: rgb(227, 237, 227);
+}
+
+.bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: green;
+  display: inline;
+}
+
+.custom-width {
+  flex: 0 0 auto;
+  width: 100%;
+}
